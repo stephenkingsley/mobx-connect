@@ -1,6 +1,6 @@
 # mobx-connect
 
-Not official React bindings for Redux, but performant and flexible.
+Not official React bindings for mobX, but performant and flexible.
 
 ## Installation
 
@@ -56,6 +56,15 @@ const ListView = (props, context) => {
 module.exports = connect()(ListView);
 
 ```
+
+## Example
+
+    git clone 
+    npm i
+    npm run build
+    cd example 
+    npm start
+    
 
 ## Documentation
 
