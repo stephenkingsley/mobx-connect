@@ -1,5 +1,6 @@
 # mobx-connect
 
+Because the official has not a function that connect context, so I create it. But the official V3 had a provide function that is the same like this!
 Not official React bindings for mobX, but performant and flexible.
 
 ## Installation
