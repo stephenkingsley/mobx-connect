@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { observer } from 'mobx-react';
+import React, { Component } from 'react'
+import { observer } from 'mobx-react'
 
-const connent = str => RootComponent => {
+const connent = () => RootComponent => {
   RootComponent = observer(RootComponent)
   class Connect extends Component {
 
@@ -12,9 +12,9 @@ const connent = str => RootComponent => {
 
   Connect.contextTypes = {
     store: React.PropTypes.object
-  };
+  }
 
   return Connect
 }
 
-module.exports = connent;
+module.exports = connent

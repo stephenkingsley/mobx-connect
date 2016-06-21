@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 export default class Provide extends Component {
   getChildContext() {
@@ -16,4 +16,4 @@ export default class Provide extends Component {
 
 Provide.childContextTypes = {
   store: React.PropTypes.object
-};
+}
